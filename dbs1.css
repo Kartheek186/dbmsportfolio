@@ -7,6 +7,14 @@ body
     margin:0px;
     color:white;
 }
+#bgr{
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
 header
 {
     font-family: 'Patua One', cursive;
@@ -16,24 +24,6 @@ header
     color:white;
     margin:0px;
 }
-#bgr{
-    background-image: url("background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100%;
-}
-#image{
-    
-    padding: 40px ;
-}
-header h1
-{
-    font-size: 40px;
-    text-align: center;
-}
-
 nav 
 {
     background-color: rgb(74, 6, 74);
@@ -47,6 +37,9 @@ nav a
     float: left;
     font-family: 'Merienda', cursive;
     color: white;
+}
+#intro{
+    padding: 40px ;
 }
 .cards-together {
     position: relative;
@@ -91,13 +84,6 @@ main
 {
     margin: 35px; 
 }
-#para h2
-{
-    font-size:32px;
-    font-weight: bolder;
-    font-family: 'Patua One', cursive;
-    text-align: center;
-}
 #para p
 {
     font-size: 20px;
@@ -108,9 +94,12 @@ main
     word-spacing: 2px;
     line-height: 30px;
 }
-#ri
+#para h2
 {
-    display:flex;
+    font-size:32px;
+    font-weight: bolder;
+    font-family: 'Patua One', cursive;
+    text-align: center;
 }
 #content
 {
@@ -164,7 +153,6 @@ main
     color:rgb(255, 255, 255);
     text-decoration: none;
 }
-
 #skills h2
 {
     padding-top: 10;
@@ -173,7 +161,7 @@ main
     font-size: 32px;
     text-align: center;
 }
-.head
+.tskills
 {
     font-size: larger;
     text-align: center;
@@ -182,6 +170,10 @@ main
 {
     display:grid;
     grid-gap: 100px;
+}
+#ri
+{
+    display:flex;
 }
 .sk
 {
