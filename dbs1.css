@@ -13,7 +13,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 100%;
+    height: auto;
 }
 header
 {
@@ -103,8 +103,7 @@ main
 }
 #content
 {
-    display: flex;
-       
+    display: flex;     
 }
 .dob
 {
@@ -203,20 +202,6 @@ main
     background-color: #ff0dc3;
     
 }
-#personal h2
-{
-    font-weight: 10px;
-    font-family: 'Patua One', cursive;
-    font-size: 32px;
-    text-align: center;
-}
-#personal .container
-{  
-    height:500px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
 #achievement h2
 {
     font-weight: 10px;
@@ -251,6 +236,20 @@ main
     content:"* ";
     height:13px;
     width:13px;
+}
+#personal h2
+{
+    font-weight: 10px;
+    font-family: 'Patua One', cursive;
+    font-size: 32px;
+    text-align: center;
+}
+#personal .container
+{  
+    height:500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 #contact h2
 {
@@ -315,14 +314,12 @@ main
 
 footer 
 {
-
     background-color: #333;
     overflow: hidden;
 }
 
 footer .keys a
-{
-    
+{   
     padding: 20px;
     float: left;
     color: white;
@@ -402,22 +399,6 @@ footer img
     stroke-dasharray: 335;
     stroke-dashoffset: 335;
     animation: line-anim 2s ease forwards 3.0s;
-}
-@keyframes line-anim {
-    100%{
-        stroke-dashoffset: 0;
-    }
-}
-@keyframes fill{
-    0%{
-        fill: transparent;
-    }
-    50%{
-        fill: rgb(163, 162, 162);
-    }
-    100%{
-        fill:white;
-    }
 }
 #logo1{
     position: relative;
@@ -501,9 +482,6 @@ footer img
 @keyframes fill{
     0%{
         fill: transparent;
-    }
-    50%{
-        fill: rgb(163, 162, 162);
     }
     100%{
         fill:white;
