@@ -117,12 +117,6 @@ main
     font-family: 'Patua One', cursive;
     
 }
-.dob p
-{
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-weight: lighter;
-   text-align: center;
-}
 .dob .points .left  li
 {
     font-size: 20px;
