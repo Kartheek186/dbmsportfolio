@@ -142,11 +142,6 @@ main
     grid-auto-columns: auto;
     grid-gap: 260px;
 }
-.right a
-{
-    color:rgb(255, 255, 255);
-    text-decoration: none;
-}
 #skills h2
 {
     padding-top: 10;
